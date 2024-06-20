@@ -1,7 +1,7 @@
 
 <div align="center">
 
-![logo](https://lolicode.gitee.io/scui-doc/logo.png)
+![logo](https://python-abc.xyz/scui-doc/logo.png)
 
 <p align="center">
 	<a href="https://v3.vuejs.org/" target="_blank">
@@ -10,7 +10,7 @@
 	<a href="https://v3.vuejs.org/" target="_blank">
 		<img src="https://img.shields.io/badge/Vue.js-3.x-green" alt="Vue">
 	</a>
-	<a href="https://element-plus.gitee.io/#/zh-CN/component/changelog" target="_blank">
+	<a href="https://element-plus.org/#/zh-CN/component/changelog" target="_blank">
 		<img src="https://img.shields.io/badge/element--plus-latest-blue" alt="element plus">
 	</a>
 </p>
@@ -25,14 +25,14 @@ SCUI 是一个中后台前端解决方案，基于VUE3和elementPlus实现。
 
 SCUI的宗旨是 让一切复杂的东西傻瓜化。
 
-![logo](https://lolicode.gitee.io/scui-doc/g_1.jpg)
+![logo](https://python-abc.xyz/scui-doc/g_1.jpg)
 
 ## 演示和文档
 
 | 类型 | 链接 |
 | -------- | -------- |
-| 文档地址 | https://lolicode.gitee.io/scui-doc/ |
-| 演示地址  | https://lolicode.gitee.io/scui-doc/demo/#/login |
+| 文档地址 | https://python-abc.xyz/scui-doc/ |
+| 演示地址  | https://python-abc.xyz/scui-doc/demo/#/login |
 
 
 
@@ -49,12 +49,12 @@ SCUI的宗旨是 让一切复杂的东西傻瓜化。
 
 ## 部分截图
 
-![logo](https://lolicode.gitee.io/scui-doc/g_2.jpg)
+![logo](https://python-abc.xyz/scui-doc/g_2.jpg)
 
 ## 安装教程
 ``` sh
 # 克隆项目
-git clone https://gitee.com/lolicode/scui.git
+git clone https://github.com/shenxgan/scui.git
 
 # 进入项目目录
 cd scui

@@ -50,7 +50,7 @@
 		{
 			"title": "elementplus",
 			"type": false,
-			"link": "https://element-plus.gitee.io"
+			"link": "https://element-plus.org"
 		}
 	]
 }`,

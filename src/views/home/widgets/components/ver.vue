@@ -7,7 +7,7 @@
 		</div>
 		<div style="margin-top: 20px;">
 			<el-button type="primary" plain round @click="golog">更新日志</el-button>
-			<el-button type="primary" plain round @click="gogit">gitee</el-button>
+			<el-button type="primary" plain round @click="gogit">github</el-button>
 		</div>
 	</el-card>
 </template>
@@ -31,10 +31,10 @@
 				this.ver = ver.data
 			},
 			golog(){
-				window.open("https://gitee.com/lolicode/scui/releases")
+				window.open("https://github.com/shenxgan/scui/releases")
 			},
 			gogit(){
-				window.open("https://gitee.com/lolicode/scui")
+				window.open("https://github.com/shenxgan/scui")
 			}
 		}
 	}
