@@ -12,6 +12,11 @@
 因为SVG图标组件扩展非常便利，所以本项目并未集成很多的图标。使用者可以随意扩展“有用”的图标。
 
 ## 扩展图标
+
+::: tip :white_check_mark:自动脚本
+在项目根路径添加了 `icon.sh` 脚本，可用于一键添加图标
+:::
+
 使用svg组件方式后扩展图标将变得非常便利。大致分为两步
 - 1. @/assets/icons 中创建图标单文件组件
 - 2. @/assets/icons/index.js 导出
@@ -36,3 +41,20 @@
 SVG代码推荐使用iconFont，可以很方便的复制SVG代码。
 
 推荐iconFont项目：[iconFont REMIX ICON](https://www.iconfont.cn/collections/detail?spm=a313x.7781069.0.da5a778a4&cid=25353)
+
+## 图标脚本介绍
+提供对所有扩展图标的增删改查功能，极大方便图标的管理。脚本位于项目根路径、名为 `icon.sh`
+动作 | 示例 | 说明
+-- | -- | --
+增 | `./icon.sh add BugFill '{svgContent}'` | 图标名称：首字母大写，驼峰格式<br>svg 内容：需要使用引号引起来
+删 | `./icon.sh del BugFill` |
+改 | `./icon.sh add BugFill '{svgContent}'` | 与添加用法一样，只是同名的会进行覆盖
+查列表 | `./icon.sh ls` | 列出当前所有扩展图标
+查用法 | `./icon.sh eg` 或者 `./icon.sh ex` | 查询图标的用法
+
+### 图标的三种用法
+```html
+<el-button icon="sc-icon-bug-fill"></el-button>
+<el-icon><sc-icon-bug-fill /></el-icon>
+<el-icon><component is="sc-icon-bug-fill" /></el-icon>
+```

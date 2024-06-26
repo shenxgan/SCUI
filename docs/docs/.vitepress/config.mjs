@@ -2,11 +2,11 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: "zh-CN",
-  title: "SCUI",
+  title: "SCUI 文档",
   description: "高性能中后台前端解决方案",
   base: '/scui-doc/',
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }],
+    ['link', { rel: 'icon', href: '/scui-doc/logo.png' }],
     // ['link', { rel: 'stylesheet', href: '/static/css/style.css' }],
   ],
   cleanUrls: true,  // 干净的路由，不带 .html

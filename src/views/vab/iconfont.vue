@@ -1,6 +1,22 @@
 <template>
 	<el-main>
-		<el-alert title="扩展了Element Plus图标库,可以在@/assets/icons中新增自己的SVG图标组件,记得在@/assets/icons/index.js中引入. 建议前往阿里iconfont复制SVG代码 https://www.iconfont.cn/collections/detail?spm=a313x.7781069.0.da5a778a4&cid=25353" type="success" style="margin-bottom:20px;"></el-alert>
+		<el-alert title="" type="success" style="margin-bottom:20px;">
+      <template #title>
+        <el-text>
+          扩展了Element Plus图标库,可以在@/assets/icons中新增自己的SVG图标组件,记得在@/assets/icons/index.js中引入. 
+          建议前往阿里iconfont复制SVG代码
+          <a style="color: #409EFF;" target="_blank" href="https://www.iconfont.cn/collections/detail?spm=a313x.7781069.0.da5a778a4&cid=25353">https://www.iconfont.cn/collections/detail?spm=a313x.7781069.0.da5a778a4&cid=25353</a>
+        </el-text>
+      </template>
+    </el-alert>
+		<el-alert title="" type="success" style="margin-bottom:20px;">
+      <template #title>
+        <el-text>
+          ✅ 现已添加自动化脚本，可一键添加新图标。
+          脚本介绍：<a style="color: #409EFF;" href="https://python-abc.xyz/scui-doc/guide/iconfont#图标脚本介绍">https://python-abc.xyz/scui-doc/guide/iconfont#图标脚本介绍</a>
+        </el-text>
+      </template>
+    </el-alert>
 		<el-row :gutter="0" class="box">
 			<el-col :span="4" v-for="(icon, index) in icons" :key="index" >
 				<div class="icon-box">
